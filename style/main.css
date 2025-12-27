@@ -1,0 +1,167 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Link para pular navegação (visível ao focar) */
+.skip-link{
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip-link:focus{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+    background: #fff;
+    color: #000;
+    z-index: 9999;
+    border-radius: 4px;
+}
+
+
+header .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+header nav a:focus{
+    outline: 3px solid rgba(229,9,20,0.2);
+    border-radius: 4px;
+}
+
+/* menu de navegação como lista para melhor semântica */
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Titulação responsiva */
+.titulo{
+    margin-top: 15%;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/capa_ncis.jpg');
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    margin-right: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao:hover,
+.botao:focus{
+    background-color: #ffffff;
+    color: #000000;
+    outline: none;
+}
+
+.botao:focus{
+    box-shadow: 0 0 0 3px rgba(229,9,20,0.2);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.conteiner{
+    margin-left: 20px;
+}
+
+.filme-principal .conteiner{
+    width: 60%;
+}
+
+.box-filme{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* foco visível para itens do carrossel */
+.filme-item:focus{
+    outline: 3px solid rgba(229,9,20,0.25);
+    outline-offset: 3px;
+}
+
+/* foco no carrossel (quando tabulado) */
+.owl-carousel:focus{
+    box-shadow: 0 0 0 4px rgba(229,9,20,0.12);
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+
