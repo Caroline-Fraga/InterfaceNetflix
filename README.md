@@ -5,7 +5,7 @@ Projeto estático que replica a interface visual da Netflix como demonstração 
 
 ## 🔗 Demo
 
-- 🔗 [![Deploy Vercel](https://img.shields.io/badge/deploy-github%20pages-brightgreen)](https://interface-netflix-rosy.vercel.app/)
+-  [![Deploy Vercel](https://img.shields.io/badge/deploy-github%20pages-brightgreen)](https://interface-netflix-rosy.vercel.app/)
 
 ## 🛠️ Tecnologias utilizadas
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -19,7 +19,7 @@ Projeto estático que replica a interface visual da Netflix como demonstração 
 ## ⚙️ Funcionalidades
 - Hero com título, descrição e ações (assistir / mais informações)
 - Carrossel de títulos com navegação por teclado e foco visível
-- Estrutura estática simples e pronta para deploy em host estático (Vercel / Netlify / GitHub Pages)
+- Estrutura estática simples e pronta para deploy em host estático (Vercel)
 
 ## ▶️ Como executar o projeto (localmente)
 1. Clone o repositório:
@@ -38,8 +38,6 @@ cd InterfaceNetflix
 python -m http.server 5500
 # abra http://localhost:5500 no navegador
 ```
-
-3. Abra `index.html` via servidor e verifique o console do navegador para eventuais erros.
 
 ## 📂 Estrutura de pastas (resumida)
 - `index.html` — página principal
