@@ -5,7 +5,7 @@ Projeto estático que replica a interface visual da Netflix como demonstração 
 
 ## 🔗 Demo
 
-- Deploy (Vercel): https://interface-netflix-rosy.vercel.app/
+- 🔗 [![Deploy Vercel](https://img.shields.io/badge/deploy-github%20pages-brightgreen)](https://interface-netflix-rosy.vercel.app/)
 
 ## 🛠️ Tecnologias utilizadas
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
