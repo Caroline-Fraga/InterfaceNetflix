@@ -1,4 +1,5 @@
 # 🎬 Clone da Interface Netflix
+Projeto estático demonstrativo para portfólio e uso acadêmico.
 
 ## 📖 Descrição
 Projeto estático que replica a interface visual da Netflix como demonstração para portfólio e estudo. Contém um hero (filme principal) e um carrossel de títulos implementado com OwlCarousel. O foco foi responsividade e acessibilidade básica.
