@@ -46,6 +46,7 @@ python -m http.server 5500
 
 ## 📂 Estrutura de pastas (resumida)
 - `index.html` — página principal
+- `README.md` — este arquivo
 - `img/` — imagens do projeto
 - `style/`
   - `main.css`
